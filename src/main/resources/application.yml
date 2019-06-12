@@ -1,0 +1,12 @@
+server:
+  port: 8989
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.19.222:3306/layuitest
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
